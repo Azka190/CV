@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div className="flex relative ml-9 mt-5">
       <div>
-        <h1 className="text-white text-2xl font-semibold m-6 ml-44 mb-1 p-2 bg-pink-200 shadow-lg hover:shadow-pink-500">
+        <h1 className="text-white text-2xl font-semibold m-6 ml-44 mb-1 p-2 bg-pink-200 shadow-lg hover:shadow-pink-500 ">
           Azka Rehman
         </h1>
       </div>
