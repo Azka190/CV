@@ -7,18 +7,19 @@ function Education() {
         <h1>My Education</h1>
       </div>
       <div className='flex md:flex-row flex-wrap justify-center  p-4 md:p-10'>
-        <div className='p-4 text-center border border-spacing-5 border-blue-500 shadow-lg shadow-blue-500 rounded-full mx-4 md:mx-20 my-4 md:my-20'>
+        {/* <div className='p-4 text-center border border-spacing-5 border-blue-500 shadow-lg shadow-blue-500 rounded-full mx-4 md:mx-20 my-4 md:my-20'>
           <h1 className='text-xl md:text-2xl font-bold underline underline-offset-1'>Matric</h1>
           <p>I completed my 10th from Govt Malikwal and got 800 marks.</p>
-        </div>
+        </div> */}
         <div className='p-4 text-center border border-spacing-5 border-blue-500 shadow-lg shadow-blue-500 rounded-full mx-4 md:mx-20 my-4 md:my-20'>
           <h1 className='text-xl md:text-2xl font-bold underline underline-offset-1'>Software Engineering</h1>
-          <p>I am studying at Virtual University and currently working on my Final Year Project (FYP), which is a Full Stack Job Portal.</p>
+          <p>
+          I am a student at Virtual University, currently developing a Full Stack Job Portal as my Final Year Project (FYP). This project involves creating a comprehensive platform for job seekers and employers, integrating front-end and back-end technologies to deliver a seamless user experience.          </p>
         </div>
-        <div className='p-4 text-center border border-spacing-5 border-blue-500 shadow-lg shadow-blue-500 rounded-full mx-4 md:mx-20 my-4 md:my-20'>
+        {/* <div className='p-4 text-center border border-spacing-5 border-blue-500 shadow-lg shadow-blue-500 rounded-full mx-4 md:mx-20 my-4 md:my-20'>
           <h1 className='text-xl md:text-2xl font-bold underline underline-offset-1'>FSC</h1>
           <p>I completed my 12th from Degree collage Malikwal</p>
-        </div>
+        </div> */}
       </div>
     </div>
   )
