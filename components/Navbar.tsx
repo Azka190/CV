@@ -11,11 +11,11 @@ function Navbar() {
   return (
     <div className="flex relative ml-9 mt-5">
       <div>
-        <h1 className="text-white text-2xl font-semibold m-6 ml-44 mb-1 p-2 bg-pink-200 shadow-lg hover:shadow-pink-500 ">
+        <h1 className="text-white text-2xl font-semibold m-6 ml-44 mb-1 p-2 bg-pink-200 shadow-lg hover:shadow-pink-500 flex sm:justify-center ">
           Azka Rehman
         </h1>
       </div>
-      <div>
+      <div className='hidden sm:block'>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -33,7 +33,7 @@ function Navbar() {
         </svg>
         
       </div>
-      <div className={`absolute -mt-10 left-[1005px] bg-blue-200 w-[400px] h-[500px]  rounded-bl-full flex flex-col justify-center items-center shadow-lg transition-opacity duration-500 ${menuOpen ? 'opacity-100' : 'opacity-0'} z-10`}>
+      <div className={`absolute -mt-10 left-[1005px] bg-blue-200 w-[400px] h-[500px] sm:disabled rounded-bl-full flex flex-col justify-center items-center shadow-lg transition-opacity duration-500 ${menuOpen ? 'opacity-100' : 'opacity-0'} z-10`}>
         <button
             onClick={toggleMenu}
             className="w-[60px] h-[60px] absolute top-12 right-6 mr-2 text-white text-4xl font-bold rounded-full p-2 px-4"
